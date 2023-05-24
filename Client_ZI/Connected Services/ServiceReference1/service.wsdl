@@ -1,0 +1,458 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" name="Service1" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WCF_ZI" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IService1_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRC4Instance_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRC4Instance" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRC4Instance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRC4InstanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetRC4Key_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetRC4Key" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetRC4Key_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetRC4KeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRC4Key_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetRC4Key" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetRC4Key_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetRC4KeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTEAInstance_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTEAInstance" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetTEAInstance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTEAInstanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetTEAKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetTEAKey" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetTEAKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetTEAKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCBCInstance_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetCBCInstance" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetCBCInstance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetCBCInstanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ENC_DEC_InputMessage">
+    <wsdl:part name="parameters" element="tns:ENC_DEC" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ENC_DEC_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ENC_DECResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Dec_InputMessage">
+    <wsdl:part name="parameters" element="tns:Dec" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Dec_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DecResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetCBCKey_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetCBCKey" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetCBCKey_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetCBCKeyResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetCBCIV_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetCBCIV" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetCBCIV_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetCBCIVResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ClearEncryptedTexts_InputMessage">
+    <wsdl:part name="parameters" element="tns:ClearEncryptedTexts" />
+  </wsdl:message>
+  <wsdl:message name="IService1_ClearEncryptedTexts_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ClearEncryptedTextsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NewEncryptedText_InputMessage">
+    <wsdl:part name="parameters" element="tns:NewEncryptedText" />
+  </wsdl:message>
+  <wsdl:message name="IService1_NewEncryptedText_OutputMessage">
+    <wsdl:part name="parameters" element="tns:NewEncryptedTextResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFileInstance_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetFileInstance" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetFileInstance_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetFileInstanceResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetOutputDirectory_InputMessage">
+    <wsdl:part name="parameters" element="tns:SetOutputDirectory" />
+  </wsdl:message>
+  <wsdl:message name="IService1_SetOutputDirectory_OutputMessage">
+    <wsdl:part name="parameters" element="tns:SetOutputDirectoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EncodeFileFromPath_InputMessage">
+    <wsdl:part name="parameters" element="tns:EncodeFileFromPath" />
+  </wsdl:message>
+  <wsdl:message name="IService1_EncodeFileFromPath_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EncodeFileFromPathResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DecodeFile_InputMessage">
+    <wsdl:part name="parameters" element="tns:DecodeFile" />
+  </wsdl:message>
+  <wsdl:message name="IService1_DecodeFile_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DecodeFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsValidCrc32_InputMessage">
+    <wsdl:part name="parameters" element="tns:IsValidCrc32" />
+  </wsdl:message>
+  <wsdl:message name="IService1_IsValidCrc32_OutputMessage">
+    <wsdl:part name="parameters" element="tns:IsValidCrc32Response" />
+  </wsdl:message>
+  <wsdl:message name="IService1_rc4_check_InputMessage">
+    <wsdl:part name="parameters" element="tns:rc4_check" />
+  </wsdl:message>
+  <wsdl:message name="IService1_rc4_check_OutputMessage">
+    <wsdl:part name="parameters" element="tns:rc4_checkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_tea_check_InputMessage">
+    <wsdl:part name="parameters" element="tns:tea_check" />
+  </wsdl:message>
+  <wsdl:message name="IService1_tea_check_OutputMessage">
+    <wsdl:part name="parameters" element="tns:tea_checkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_cbc_tea_check_InputMessage">
+    <wsdl:part name="parameters" element="tns:cbc_tea_check" />
+  </wsdl:message>
+  <wsdl:message name="IService1_cbc_tea_check_OutputMessage">
+    <wsdl:part name="parameters" element="tns:cbc_tea_checkResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Set_Number_of_Threads_InputMessage">
+    <wsdl:part name="parameters" element="tns:Set_Number_of_Threads" />
+  </wsdl:message>
+  <wsdl:message name="IService1_Set_Number_of_Threads_OutputMessage">
+    <wsdl:part name="parameters" element="tns:Set_Number_of_ThreadsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContract" />
+  </wsdl:message>
+  <wsdl:message name="IService1_GetDataUsingDataContract_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataUsingDataContractResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IService1">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetData" message="tns:IService1_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataResponse" message="tns:IService1_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRC4Instance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetRC4Instance" message="tns:IService1_GetRC4Instance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetRC4InstanceResponse" message="tns:IService1_GetRC4Instance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetRC4Key">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SetRC4Key" message="tns:IService1_SetRC4Key_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SetRC4KeyResponse" message="tns:IService1_SetRC4Key_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetRC4Key">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetRC4Key" message="tns:IService1_GetRC4Key_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetRC4KeyResponse" message="tns:IService1_GetRC4Key_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTEAInstance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetTEAInstance" message="tns:IService1_GetTEAInstance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetTEAInstanceResponse" message="tns:IService1_GetTEAInstance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetTEAKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SetTEAKey" message="tns:IService1_SetTEAKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SetTEAKeyResponse" message="tns:IService1_SetTEAKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCBCInstance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetCBCInstance" message="tns:IService1_GetCBCInstance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetCBCInstanceResponse" message="tns:IService1_GetCBCInstance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ENC_DEC">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ENC_DEC" message="tns:IService1_ENC_DEC_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ENC_DECResponse" message="tns:IService1_ENC_DEC_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Dec">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Dec" message="tns:IService1_Dec_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DecResponse" message="tns:IService1_Dec_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCBCKey">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SetCBCKey" message="tns:IService1_SetCBCKey_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SetCBCKeyResponse" message="tns:IService1_SetCBCKey_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetCBCIV">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SetCBCIV" message="tns:IService1_SetCBCIV_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SetCBCIVResponse" message="tns:IService1_SetCBCIV_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ClearEncryptedTexts">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/ClearEncryptedTexts" message="tns:IService1_ClearEncryptedTexts_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/ClearEncryptedTextsResponse" message="tns:IService1_ClearEncryptedTexts_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="NewEncryptedText">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/NewEncryptedText" message="tns:IService1_NewEncryptedText_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/NewEncryptedTextResponse" message="tns:IService1_NewEncryptedText_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetFileInstance">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetFileInstance" message="tns:IService1_GetFileInstance_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetFileInstanceResponse" message="tns:IService1_GetFileInstance_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="SetOutputDirectory">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/SetOutputDirectory" message="tns:IService1_SetOutputDirectory_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/SetOutputDirectoryResponse" message="tns:IService1_SetOutputDirectory_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EncodeFileFromPath">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/EncodeFileFromPath" message="tns:IService1_EncodeFileFromPath_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/EncodeFileFromPathResponse" message="tns:IService1_EncodeFileFromPath_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DecodeFile">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/DecodeFile" message="tns:IService1_DecodeFile_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/DecodeFileResponse" message="tns:IService1_DecodeFile_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="IsValidCrc32">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/IsValidCrc32" message="tns:IService1_IsValidCrc32_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/IsValidCrc32Response" message="tns:IService1_IsValidCrc32_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="rc4_check">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/rc4_check" message="tns:IService1_rc4_check_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/rc4_checkResponse" message="tns:IService1_rc4_check_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="tea_check">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/tea_check" message="tns:IService1_tea_check_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/tea_checkResponse" message="tns:IService1_tea_check_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="cbc_tea_check">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/cbc_tea_check" message="tns:IService1_cbc_tea_check_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/cbc_tea_checkResponse" message="tns:IService1_cbc_tea_check_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Set_Number_of_Threads">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/Set_Number_of_Threads" message="tns:IService1_Set_Number_of_Threads_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/Set_Number_of_ThreadsResponse" message="tns:IService1_Set_Number_of_Threads_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <wsdl:input wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContract" message="tns:IService1_GetDataUsingDataContract_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IService1/GetDataUsingDataContractResponse" message="tns:IService1_GetDataUsingDataContract_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IService1" type="tns:IService1">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRC4Instance">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetRC4Instance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetRC4Key">
+      <soap:operation soapAction="http://tempuri.org/IService1/SetRC4Key" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetRC4Key">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetRC4Key" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTEAInstance">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetTEAInstance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetTEAKey">
+      <soap:operation soapAction="http://tempuri.org/IService1/SetTEAKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCBCInstance">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetCBCInstance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ENC_DEC">
+      <soap:operation soapAction="http://tempuri.org/IService1/ENC_DEC" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Dec">
+      <soap:operation soapAction="http://tempuri.org/IService1/Dec" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCBCKey">
+      <soap:operation soapAction="http://tempuri.org/IService1/SetCBCKey" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetCBCIV">
+      <soap:operation soapAction="http://tempuri.org/IService1/SetCBCIV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ClearEncryptedTexts">
+      <soap:operation soapAction="http://tempuri.org/IService1/ClearEncryptedTexts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="NewEncryptedText">
+      <soap:operation soapAction="http://tempuri.org/IService1/NewEncryptedText" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetFileInstance">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetFileInstance" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SetOutputDirectory">
+      <soap:operation soapAction="http://tempuri.org/IService1/SetOutputDirectory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EncodeFileFromPath">
+      <soap:operation soapAction="http://tempuri.org/IService1/EncodeFileFromPath" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DecodeFile">
+      <soap:operation soapAction="http://tempuri.org/IService1/DecodeFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IsValidCrc32">
+      <soap:operation soapAction="http://tempuri.org/IService1/IsValidCrc32" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="rc4_check">
+      <soap:operation soapAction="http://tempuri.org/IService1/rc4_check" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="tea_check">
+      <soap:operation soapAction="http://tempuri.org/IService1/tea_check" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="cbc_tea_check">
+      <soap:operation soapAction="http://tempuri.org/IService1/cbc_tea_check" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Set_Number_of_Threads">
+      <soap:operation soapAction="http://tempuri.org/IService1/Set_Number_of_Threads" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDataUsingDataContract">
+      <soap:operation soapAction="http://tempuri.org/IService1/GetDataUsingDataContract" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Service1">
+    <wsdl:port name="BasicHttpBinding_IService1" binding="tns:BasicHttpBinding_IService1">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WCF_ZI/Service1/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

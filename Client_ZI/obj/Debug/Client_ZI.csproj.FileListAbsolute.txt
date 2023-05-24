@@ -1,0 +1,48 @@
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\bin\Debug\Client_ZI.exe.config
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\bin\Debug\Client_ZI.exe
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\bin\Debug\Client_ZI.pdb
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.csproj.AssemblyReference.cache
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.csproj.SuggestedBindingRedirects.cache
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.Properties.Resources.resources
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.csproj.GenerateResource.cache
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.csproj.CoreCompileInputs.cache
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.exe
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.pdb
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.Form1.resources
+C:\Users\asina\source\repos\WCF_ZI\Client_ZI\obj\Debug\Enigma_Machine.Forms.Enigma_Window.resources
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\bin\Debug\Client_ZI.exe.config
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\bin\Debug\Client_ZI.exe
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\bin\Debug\Client_ZI.pdb
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.csproj.AssemblyReference.cache
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.csproj.SuggestedBindingRedirects.cache
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.Form1.resources
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\obj\Debug\Enigma_Machine.Forms.Enigma_Window.resources
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.Properties.Resources.resources
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.csproj.GenerateResource.cache
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.csproj.CoreCompileInputs.cache
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.exe
+C:\Users\asina\source\repos\ZI Aleksa Milic 17774\WCF_ZI\Client_ZI\obj\Debug\Client_ZI.pdb
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\bin\Debug\Client_ZI.exe.config
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\bin\Debug\Client_ZI.exe
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\bin\Debug\Client_ZI.pdb
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.csproj.AssemblyReference.cache
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.csproj.SuggestedBindingRedirects.cache
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.Form1.resources
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Enigma_Machine.Forms.Enigma_Window.resources
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.Properties.Resources.resources
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.csproj.GenerateResource.cache
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.csproj.CoreCompileInputs.cache
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.exe
+C:\Users\asina\Desktop\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.pdb
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\bin\Debug\Client_ZI.exe.config
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\bin\Debug\Client_ZI.exe
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\bin\Debug\Client_ZI.pdb
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.csproj.AssemblyReference.cache
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.csproj.SuggestedBindingRedirects.cache
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.Form1.resources
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Enigma_Machine.Forms.Enigma_Window.resources
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.Properties.Resources.resources
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.csproj.GenerateResource.cache
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.csproj.CoreCompileInputs.cache
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.exe
+C:\Users\asina\Downloads\ZI_Aleksa_Milic_17774\ZI_Aleksa_Milic_17774\Client_ZI\obj\Debug\Client_ZI.pdb
